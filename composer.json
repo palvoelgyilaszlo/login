@@ -1,0 +1,20 @@
+{
+    "name": "palvoelgyilaszlo/login",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Palvoelgyilaszlo\\Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "palvoelgyilaszlo",
+            "email": "l.palvoelgyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laszlopalvoelgyi/helper": "1.0.6"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "88736d2e1d6ae6256f3be71bfcec5e48",
+    "packages": [
+        {
+            "name": "laszlopalvoelgyi/helper",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/palvoelgyilaszlo/helper.git",
+                "reference": "979eb7c35b719900f6a53c73958b997b49ac9f70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/palvoelgyilaszlo/helper/zipball/979eb7c35b719900f6a53c73958b997b49ac9f70",
+                "reference": "979eb7c35b719900f6a53c73958b997b49ac9f70",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Palvoelgyi\\Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "palvoelgyilaszlo",
+                    "email": "l.palvoelgyi@gmail.com"
+                }
+            ],
+            "description": "help for php programming",
+            "support": {
+                "issues": "https://github.com/palvoelgyilaszlo/helper/issues",
+                "source": "https://github.com/palvoelgyilaszlo/helper/tree/v1.0.6"
+            },
+            "time": "2021-05-17T07:34:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
