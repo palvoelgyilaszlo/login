@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Palvoelgyilaszlo\\Login\\": "src/"
+            "Palvoelgyi\\Login\\": "src/"
         }
     },
     "authors": [
@@ -15,6 +15,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laszlopalvoelgyi/helper": "1.0.6"
+        "laszlopalvoelgyi/helper": "1.0.6",
+        "symfony/dotenv": "5.x-dev",
+        "twig/twig": "3.x-dev",
+        "laszlopalvoelgyi/mongodb": "^1"
     }
 }
