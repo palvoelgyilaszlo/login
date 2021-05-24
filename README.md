@@ -1,6 +1,8 @@
 # login
 
-# Installation wiht Composer
+# Installation with Composer
+
+    composer require palvoelgyilaszlo/login
 
 # configuration
 
