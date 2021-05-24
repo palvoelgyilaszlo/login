@@ -17,7 +17,7 @@
     "require": {
         "laszlopalvoelgyi/helper": "1.0.6",
         "symfony/dotenv": "*",
-        "twig/twig": "3.x-dev",
-        "laszlopalvoelgyi/mongodb": "^1"
+        "twig/twig": "*",
+        "laszlopalvoelgyi/mongodb": "*"
     }
 }
