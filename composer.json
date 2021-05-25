@@ -15,9 +15,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laszlopalvoelgyi/helper": "1.0.6",
+        "palvoelgyilaszlo/helper": "^1",
         "symfony/dotenv": "*",
         "twig/twig": "*",
-        "laszlopalvoelgyi/mongodb": "*"
+        "palvoelgyilaszlo/mongodb": "*"
     }
 }
