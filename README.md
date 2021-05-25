@@ -26,13 +26,29 @@
         '../templates'
         'login.html.twig'
 
+ # first use
+
+    1) add project_folder
+    2) CD project_folder
+    3) composer init
+    4) composer install
+    5) composer require palvoelgyilaszlo/login
+    6) copy 
+       /vendor/palvoelgyilaszlo/login/config/
+       /vendor/palvoelgyilaszlo/login/public/
+       /vendor/palvoelgyilaszlo/login/templates/
+       to
+       project_folder
+    7) use /public/index.php
+
+
 # use on every protected page
 
     use Palvoelgyi\Login\Login;
 
     Login::loginProof();
 
-# create login.php
+# or create login.php
 
     <?php
 
@@ -44,7 +60,7 @@
 
         $login->login();
 
-# create logout.php
+# or create logout.php
 
     <?php
 
@@ -56,6 +72,12 @@
 
         $login->logout();
 
+# add new user
+
+    $login = new Login;
+    $login->addNewUser(true);
+
+    and use login.php formular
 
 
 

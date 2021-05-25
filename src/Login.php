@@ -117,11 +117,6 @@
             $this->addNewUser = $add;
         }
 
-        public function removeUser() : void 
-        {
-
-        }
-
         public function setmongoUri(string $mongoUri) : void
         {
             $this->mongoUri       = $mongoUri; 
