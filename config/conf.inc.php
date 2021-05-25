@@ -17,9 +17,12 @@
 
         public function __construct()
         {
-            $this->dotenv = new Dotenv();
+            if (file_exists('../.env')) {
 
-            $this->dotenv->load('../.env');
+                 $this->dotenv = new Dotenv();
+                $this->dotenv->load('../.env');
+
+            }
 
             /** either $_SESSION or .env file or standard setting  */
             $this->mongoUri =
